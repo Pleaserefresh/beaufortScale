@@ -28,8 +28,8 @@ public class Main {
             System.out.println("===============================================");
 
             System.out.print("Podaj skalę Beauforta: / Input Beaufort scale: ");
-            byte beaufort_scale = in.nextByte();
             System.out.println("===============================================");
+            byte beaufort_scale = in.nextByte();
             if (beaufort_scale == 0) {
                 System.out.println(beaufort_scale + " B" + " => cisza => calm => 0,0 - 0,2 m/s => <1W \n" +
                         "Morze gładkie jak lustro.");
