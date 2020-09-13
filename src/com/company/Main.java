@@ -22,13 +22,10 @@ public class Main {
                 "wyglądzie powierzchni morza.\n" +
                 "Zestawienie stopni siły wiatru, odpowiadających im przedziałów prędkości wiatru, \nnazw polskich i " +
                 "angielskich, odpowiednich stopni siły wiatru, \nwyświetli się po wprowadzeniu liczby ze skali Beauforta:");
+        System.out.println("===============================================");
         boolean run = true;
         while (run) {
-
-            System.out.println("===============================================");
-
             System.out.print("Podaj skalę Beauforta: / Input Beaufort scale: ");
-            System.out.println("===============================================");
             byte beaufort_scale = in.nextByte();
             if (beaufort_scale == 0) {
                 System.out.println(beaufort_scale + " B" + " => cisza => calm => 0,0 - 0,2 m/s => <1W \n" +
