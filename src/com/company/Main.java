@@ -84,7 +84,7 @@ public class Main
         };
 
         Map<Integer, String> beaufortDictionary = new HashMap<Integer, String>();
-        int dictionaryKey = 1;
+        int dictionaryKey = 0;
 
         for (String description : scaleDescription)
         {
